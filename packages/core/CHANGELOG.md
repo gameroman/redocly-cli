@@ -1,5 +1,11 @@
 # @redocly/openapi-core
 
+## 2.26.0
+
+### Patch Changes
+
+- Fixed the `no-required-schema-properties-undefined` rule to report when a required property is not defined in every `oneOf`/`anyOf` branch.
+
 ## 2.25.4
 
 ### Patch Changes
